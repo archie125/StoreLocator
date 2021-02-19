@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.scss';
+import 'antd/dist/antd.css';
+
+import { Button } from 'antd';
+
+import GoogleMap from './GoogleMap';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+          <Button type="primary">Primary Button</Button>
+      <div className='group-1'>
+        <div className='group-1-item'>Catherine Padon</div>
+        <div className='group-1-item'>Fermin Gegangao</div>
+      </div>
+      <div className='group-2'>
+        <div className='group-2-item'>Catherine Cagadas</div>
+        <div className='group-2-item'>Andrian Pontejo</div>
+      </div>
+      <GoogleMap />
     </div>
   );
 }
