@@ -10,14 +10,27 @@ import './main.scss';
 const { Content } = Layout;
 
 class Main extends Component {
+    state = {
+        currentPosition: null,
+    };
+
+    componentDidMount() {
+        window.navigator.geolocation.getCurrentPosition(({ coords }) => {
+            const currentPosition = {
+                lat: coords.latitude,
+                lng: coords.longitude,
+            };
+            this.setState({ currentPosition });
+        });
+    }
     render() {
         return (
              <div className='main-layout'>
-                <Content className='content'>
+                <Content className='content'    >
                     <Brand />
                     <Search />
                     <div className='search-content'>
-                    <Map />
+                    <Map currentPosition={this.state.currentPosition} />
                     <SearchResult />
                         
                     </div>    
