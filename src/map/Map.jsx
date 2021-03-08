@@ -13,7 +13,7 @@ class Map extends Component {
                     google={this.props.google} 
                     onGoogleApi
                     initialCenter={currentPosition}
-                    >
+                    > 
                       <Marker />
                       <Circle
                       center={currentPosition}
