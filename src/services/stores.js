@@ -1,0 +1,78 @@
+export const getStores = () => {
+    return Promise.resolve({
+        data: [
+            {
+                id: 1,
+                name: 'Bato Public Market',
+                address: 'Bato, Leyte',
+                tags:'Bato Public Terminal',
+                latitude: 10.3196388,
+                longitude: 124.782238,
+            },
+            {
+                id: 2,
+                name: "Stone Grill Restaurant",
+                address: 'Tinago, Bato, Leyte',
+                tags:'Restaurant',
+                latitude: 10.3196388,
+                longitude: 124.782238,
+            },
+            {
+                id: 3,
+                name: 'Bato Baywalk',
+                address: 'Bato, Leyte',
+                tags:'Food Court',
+                latitude: 10.3266249,
+                longitude: 124.789004,   
+            },
+            {
+                id: 4,
+                name: 'La Felomina Seafood and Grill - Bato',
+                address: 'Bato - Bontoc Rd, Bato, Leyte',
+                tags:'Restaurant',
+                latitude: 10.3228205,
+                longitude: 124.790326,
+            },
+            {
+                id: 5,
+                name: 'Stone Grill Restaurant',
+                address: 'Tinago, Bato, 6525 Leyte',
+                tags:'Restaurant',
+                latitude: 10.3228205,
+                longitude: 124.790326,
+            },
+            {
+                id: 6,
+                name: 'Afforda',
+                address: 'Jose P Rizal St, Bato, 6525 Leyte',
+                tags:'Cake shop',
+                latitude: 10.3201477,
+                longitude: 124.7907494,
+            },
+            {
+                id: 7,
+                name: 'Sucréme Kitchen Food & Pastries',
+                address: 'Bato, Leyte',
+                tags:'Restaurant',
+                latitude: 10.326595,
+                longitude: 124.7905325,
+            },
+            {
+                id: 8,
+                name: 'la veranda Restaurant',
+                address: 'Juan Luna St, Bato, 6525 Leyte',
+                tags:'Restaurant',
+                latitude: 10.326595,
+                longitude: 124.7905325,
+            },
+            {
+                id: 9,
+                name: 'Holy Child Parish Church',
+                address: 'Bato, Leyte',
+                tags:'Catholic Church',
+                latitude: 10.3265373,
+                longitude: 124.7909791,
+            },
+        ],
+    });
+};
