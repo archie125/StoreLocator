@@ -25,12 +25,12 @@ class Search extends Component {
                             onChange={(event) => this.props.onChange(event)}
                         />
                     </div>
-                    <div> 
+                    <div>
                         <div className='search-option'>
-                            <Input.Group compact> 
-                                <Input  
-                                name='distance' 
-                                value={this.props.distance}  
+                            <Input.Group compact>
+                                <Input
+                                name='distance'
+                                value={this.props.distance}
                                 onChange={(event) => this.props.onChange(event)}/>
                             <Select defaultValue='Distance'>
                                 <Option value='Distance'>Distance (km)</Option>
@@ -43,7 +43,7 @@ class Search extends Component {
                                 size='meduim'
                                 htmlType='submit'
                                 > 
-                                    SEARCH 
+                                    SEARCH
                             </Button>
                             </Input.Group>
                         </div>
