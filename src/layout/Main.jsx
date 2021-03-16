@@ -85,7 +85,8 @@ class Main extends Component {
                     <div className='search-content'>
                     <Map 
                     currentPosition={this.state.currentPosition} 
-                    distance={this.state.distance} 
+                    distance={this.state.searchQuery.distance}
+                    stores={this.state.searchQuery.stores}
                     />
                     <SearchResult />
                     </div>    
