@@ -3,11 +3,11 @@ export const getStores = () => {
         data: [
             {
                 id: 1,
-                name: 'Bato Public Market',
-                address: 'Bato, Leyte',
-                tags:'Bato Public Terminal',
-                latitude: 10.3196388,
-                longitude: 124.782238,
+                name: 'Gaisano Grand Mandaue North',
+                address: '6014 Cebu N Rd, Mandaue City, Cebu',
+                tags:'Shopping Mall,Hardware,Restaurant,Grocery,SUper Market',
+                latitude: 10.3567159,
+                longitude: 123.9480096,
             },
             {
                 id: 2,
@@ -72,6 +72,14 @@ export const getStores = () => {
                 tags:'Catholic Church',
                 latitude: 10.3265373,
                 longitude: 124.7909791,
+            },
+            {
+                id: 10,
+                name: 'Bato Public Market',
+                address: 'Bato, Leyte',
+                tags:'Bato Public Terminal',
+                latitude: 10.3196388,
+                longitude: 124.782238,
             },
         ],
     });
